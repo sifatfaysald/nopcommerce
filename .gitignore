@@ -7,6 +7,11 @@ trace/
 videos/
 screenshots/
 
+# Playwright reports
+/playwright-report/
+/blob-report/
+/allure-report/
+
 # Build output
 dist/
 build/
@@ -35,7 +40,8 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Playwright
-/playwright-report/
-/blob-report/
+# Playwright cache
 /playwright/.cache/
+
+# Session / storage files
+/auth.json
