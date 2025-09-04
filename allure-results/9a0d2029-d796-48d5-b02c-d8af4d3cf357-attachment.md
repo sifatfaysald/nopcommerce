@@ -1,0 +1,446 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e5]:
+        - combobox "Currency selector" [ref=e8]:
+          - option "US Dollar" [selected]
+          - option "Euro"
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "My account" [ref=e13] [cursor=pointer]:
+              - /url: /customer/info
+          - listitem [ref=e14]:
+            - link "Log out" [ref=e15] [cursor=pointer]:
+              - /url: /logout
+          - listitem [ref=e16]:
+            - link "Wishlist (0)" [ref=e17] [cursor=pointer]:
+              - /url: /wishlist
+              - generic [ref=e18] [cursor=pointer]: Wishlist
+              - generic [ref=e19] [cursor=pointer]: (0)
+          - listitem [ref=e20]:
+            - link "Shopping cart (2)" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - generic [ref=e22] [cursor=pointer]: Shopping cart
+              - generic [ref=e23] [cursor=pointer]: (2)
+      - generic [ref=e24]:
+        - link "nopCommerce demo store" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img "nopCommerce demo store" [ref=e27] [cursor=pointer]
+        - generic [ref=e29]:
+          - textbox "Search store" [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link "Computers" [ref=e35] [cursor=pointer]:
+          - /url: /computers
+      - listitem [ref=e36]:
+        - link "Electronics" [ref=e37] [cursor=pointer]:
+          - /url: /electronics
+      - listitem [ref=e38]:
+        - link "Apparel" [ref=e39] [cursor=pointer]:
+          - /url: /apparel
+      - listitem [ref=e40]:
+        - link "Digital downloads" [ref=e41] [cursor=pointer]:
+          - /url: /digital-downloads
+      - listitem [ref=e42]:
+        - link "Books" [ref=e43] [cursor=pointer]:
+          - /url: /books
+      - listitem [ref=e44]:
+        - link "Jewelry" [ref=e45] [cursor=pointer]:
+          - /url: /jewelry
+      - listitem [ref=e46]:
+        - link "Gift Cards" [ref=e47] [cursor=pointer]:
+          - /url: /gift-cards
+    - main [ref=e48]:
+      - generic [ref=e49]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Home" [ref=e54] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e55] [cursor=pointer]: Home
+            - generic [ref=e56]: /
+          - listitem [ref=e57]:
+            - link "Computers" [ref=e58] [cursor=pointer]:
+              - /url: /computers
+              - generic [ref=e59] [cursor=pointer]: Computers
+            - generic [ref=e60]: /
+          - listitem [ref=e61]:
+            - link "Notebooks" [ref=e62] [cursor=pointer]:
+              - /url: /notebooks
+              - generic [ref=e63] [cursor=pointer]: Notebooks
+            - generic [ref=e64]: /
+          - listitem [ref=e65]:
+            - strong [ref=e66]: Apple MacBook Pro
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e74]:
+                - img "Picture of Apple MacBook Pro" [ref=e76]
+                - generic [ref=e77]:
+                  - img "Picture of Apple MacBook Pro" [ref=e79] [cursor=pointer]
+                  - img "Picture of Apple MacBook Pro" [ref=e81] [cursor=pointer]
+              - generic [ref=e82]:
+                - heading "Apple MacBook Pro" [level=1] [ref=e84]
+                - generic [ref=e85]: A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create.
+                - generic [ref=e86]:
+                  - link "3 review(s)" [ref=e91] [cursor=pointer]:
+                    - /url: "#productreviews"
+                  - generic [ref=e92]:
+                    - text: "|"
+                    - link "Add your review" [ref=e93] [cursor=pointer]:
+                      - /url: "#addreview"
+                - generic [ref=e94]:
+                  - generic [ref=e95]: "Manufacturer:"
+                  - link "Apple" [ref=e97] [cursor=pointer]:
+                    - /url: /apple
+                - generic [ref=e99]:
+                  - generic [ref=e100]: "SKU:"
+                  - generic [ref=e101]: AP_MBP_13
+                - generic [ref=e103]: Free shipping
+                - generic [ref=e106]: $1,800.00
+                - generic [ref=e107]:
+                  - generic [ref=e108]: This product has a minimum quantity of 2
+                  - generic [ref=e109]:
+                    - textbox "Enter a quantity" [ref=e110]: "2"
+                    - button "Add to cart" [ref=e111] [cursor=pointer]
+                - generic [ref=e112]:
+                  - button "Add to wishlist" [ref=e114] [cursor=pointer]
+                  - button "Add to compare list" [ref=e116] [cursor=pointer]
+                  - button "Email a friend" [ref=e118] [cursor=pointer]
+                - generic [ref=e120]:
+                  - img "facebook sharing button" [ref=e122] [cursor=pointer]
+                  - img "whatsapp sharing button" [ref=e124] [cursor=pointer]
+                  - img "messenger sharing button" [ref=e126] [cursor=pointer]
+                  - img "print sharing button" [ref=e128] [cursor=pointer]
+                  - img "evernote sharing button" [ref=e130] [cursor=pointer]
+              - generic [ref=e131]:
+                - paragraph [ref=e132]: With fifth-generation Intel Core processors, the latest graphics, and faster flash storage, the incredibly advanced MacBook Pro with Retina display moves even further ahead in performance and battery life.* *Compared with the previous generation.
+                - paragraph [ref=e133]: Retina display with 2560-by-1600 resolution
+                - paragraph [ref=e134]: Fifth-generation dual-core Intel Core i5 processor
+                - paragraph [ref=e135]: Intel Iris Graphics
+                - paragraph [ref=e136]: Up to 9 hours of battery life1
+                - paragraph [ref=e137]: Faster flash storage2
+                - paragraph [ref=e138]: 802.11ac Wi-Fi
+                - paragraph [ref=e139]: Two Thunderbolt 2 ports for connecting high-performance devices and transferring data at lightning speed
+                - paragraph [ref=e140]: Two USB 3 ports (compatible with USB 2 devices) and HDMI
+                - paragraph [ref=e141]: FaceTime HD camera
+                - paragraph [ref=e142]: Pages, Numbers, Keynote, iPhoto, iMovie, GarageBand included
+                - paragraph [ref=e143]: OS X, the world's most advanced desktop operating system
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - strong [ref=e147]: Products specifications
+                - table [ref=e149]:
+                  - rowgroup [ref=e150]:
+                    - row "Attribute name Attribute value" [ref=e151]:
+                      - cell "Attribute name" [ref=e152]:
+                        - generic [ref=e153]: Attribute name
+                      - cell "Attribute value" [ref=e154]:
+                        - generic [ref=e155]: Attribute value
+                  - rowgroup [ref=e156]:
+                    - row "Screensize 13.0''" [ref=e157]:
+                      - cell "Screensize" [ref=e158]
+                      - cell "13.0''" [ref=e159]
+                    - row "System unit" [ref=e160]:
+                      - cell "System unit" [ref=e161]
+                    - row "CPU Type Intel Core i5" [ref=e162]:
+                      - cell "CPU Type" [ref=e163]
+                      - cell "Intel Core i5" [ref=e164]
+                    - row "Memory 4 GB" [ref=e165]:
+                      - cell "Memory" [ref=e166]
+                      - cell "4 GB" [ref=e167]
+              - generic [ref=e168]:
+                - strong [ref=e170]: Product tags
+                - list [ref=e172]:
+                  - listitem [ref=e173]:
+                    - link "awesome" [ref=e174] [cursor=pointer]:
+                      - /url: /awesome
+                    - generic [ref=e175]: (18)
+                  - listitem [ref=e176]: ","
+                  - listitem [ref=e177]:
+                    - link "computer" [ref=e178] [cursor=pointer]:
+                      - /url: /computer
+                    - generic [ref=e179]: (14)
+                  - listitem [ref=e180]: ","
+                  - listitem [ref=e181]:
+                    - link "compact" [ref=e182] [cursor=pointer]:
+                      - /url: /compact
+                    - generic [ref=e183]: (7)
+            - generic [ref=e184]:
+              - strong [ref=e186]: Customers who bought this item also bought
+              - generic [ref=e189]:
+                - link "Picture of HTC smartphone" [ref=e191] [cursor=pointer]:
+                  - /url: /htc-smartphone
+                  - img "Picture of HTC smartphone" [ref=e192] [cursor=pointer]
+                - generic [ref=e193]:
+                  - heading "HTC smartphone" [level=2] [ref=e194]:
+                    - link "HTC smartphone" [ref=e195] [cursor=pointer]:
+                      - /url: /htc-smartphone
+                  - generic [ref=e198]:
+                    - generic [ref=e200]: $245.00
+                    - generic [ref=e201]:
+                      - button "Add to cart" [ref=e202] [cursor=pointer]
+                      - button "Add to compare list" [ref=e203] [cursor=pointer]
+                      - button "Add to wishlist" [ref=e204] [cursor=pointer]
+            - generic [ref=e205]:
+              - strong [ref=e207]: Related products
+              - generic [ref=e208]:
+                - generic [ref=e210]:
+                  - link "Picture of Lenovo Thinkpad Carbon Laptop" [ref=e212] [cursor=pointer]:
+                    - /url: /lenovo-thinkpad-carbon-laptop
+                    - img "Picture of Lenovo Thinkpad Carbon Laptop" [ref=e213] [cursor=pointer]
+                  - generic [ref=e214]:
+                    - heading "Lenovo Thinkpad Carbon Laptop" [level=2] [ref=e215]:
+                      - link "Lenovo Thinkpad Carbon Laptop" [ref=e216] [cursor=pointer]:
+                        - /url: /lenovo-thinkpad-carbon-laptop
+                    - generic [ref=e220]:
+                      - generic [ref=e222]: $1,360.00
+                      - generic [ref=e223]:
+                        - button "Add to cart" [ref=e224] [cursor=pointer]
+                        - button "Add to compare list" [ref=e225] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e226] [cursor=pointer]
+                - generic [ref=e228]:
+                  - link "Picture of Samsung Premium Ultrabook" [ref=e230] [cursor=pointer]:
+                    - /url: /samsung-premium-ultrabook
+                    - img "Picture of Samsung Premium Ultrabook" [ref=e231] [cursor=pointer]
+                  - generic [ref=e232]:
+                    - heading "Samsung Premium Ultrabook" [level=2] [ref=e233]:
+                      - link "Samsung Premium Ultrabook" [ref=e234] [cursor=pointer]:
+                        - /url: /samsung-premium-ultrabook
+                    - generic [ref=e238]:
+                      - generic [ref=e240]: $1,590.00
+                      - generic [ref=e241]:
+                        - button "Add to cart" [ref=e242] [cursor=pointer]
+                        - button "Add to compare list" [ref=e243] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e244] [cursor=pointer]
+                - generic [ref=e246]:
+                  - link "Picture of Asus Laptop" [ref=e248] [cursor=pointer]:
+                    - /url: /asus-laptop
+                    - img "Picture of Asus Laptop" [ref=e249] [cursor=pointer]
+                  - generic [ref=e250]:
+                    - heading "Asus Laptop" [level=2] [ref=e251]:
+                      - link "Asus Laptop" [ref=e252] [cursor=pointer]:
+                        - /url: /asus-laptop
+                    - generic [ref=e256]:
+                      - generic [ref=e258]: $1,500.00
+                      - generic [ref=e259]:
+                        - button "Add to cart" [ref=e260] [cursor=pointer]
+                        - button "Add to compare list" [ref=e261] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e262] [cursor=pointer]
+                - generic [ref=e264]:
+                  - link "Picture of HP Spectre XT Pro UltraBook" [ref=e266] [cursor=pointer]:
+                    - /url: /hp-spectre-xt-pro-ultrabook
+                    - img "Picture of HP Spectre XT Pro UltraBook" [ref=e267] [cursor=pointer]
+                  - generic [ref=e268]:
+                    - heading "HP Spectre XT Pro UltraBook" [level=2] [ref=e269]:
+                      - link "HP Spectre XT Pro UltraBook" [ref=e270] [cursor=pointer]:
+                        - /url: /hp-spectre-xt-pro-ultrabook
+                    - generic [ref=e274]:
+                      - generic [ref=e276]: $1,350.00
+                      - generic [ref=e277]:
+                        - button "Add to cart" [ref=e278] [cursor=pointer]
+                        - button "Add to compare list" [ref=e279] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e280] [cursor=pointer]
+          - generic [ref=e281]:
+            - generic [ref=e282]:
+              - strong [ref=e284]: Existing reviews
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - strong [ref=e288]: Test review
+                  - generic [ref=e291]: "4"
+                - generic [ref=e292]:
+                  - generic [ref=e294]: ReviewTest
+                  - generic [ref=e295]:
+                    - generic [ref=e296]:
+                      - generic [ref=e297]: "From:"
+                      - generic [ref=e298]: Zeyad
+                    - generic [ref=e299]: "|"
+                    - generic [ref=e300]:
+                      - generic [ref=e301]: "Date:"
+                      - generic [ref=e302]: 9/4/2025 8:58 AM
+                  - generic [ref=e303]:
+                    - generic [ref=e304]: Was this review helpful?
+                    - generic [ref=e305]:
+                      - generic [ref=e306] [cursor=pointer]: "Yes"
+                      - generic [ref=e307] [cursor=pointer]: "No"
+                    - generic [ref=e308]:
+                      - text: (
+                      - generic [ref=e309]: "0"
+                      - text: /
+                      - generic [ref=e310]: "0"
+                      - text: )
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - strong [ref=e314]: asd
+                  - generic [ref=e317]: "4"
+                - generic [ref=e318]:
+                  - generic [ref=e320]: asdasd
+                  - generic [ref=e321]:
+                    - generic [ref=e322]:
+                      - generic [ref=e323]: "From:"
+                      - generic [ref=e324]: Zeyad
+                    - generic [ref=e325]: "|"
+                    - generic [ref=e326]:
+                      - generic [ref=e327]: "Date:"
+                      - generic [ref=e328]: 9/4/2025 8:44 AM
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: Was this review helpful?
+                    - generic [ref=e331]:
+                      - generic [ref=e332] [cursor=pointer]: "Yes"
+                      - generic [ref=e333] [cursor=pointer]: "No"
+                    - generic [ref=e334]:
+                      - text: (
+                      - generic [ref=e335]: "0"
+                      - text: /
+                      - generic [ref=e336]: "0"
+                      - text: )
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - strong [ref=e340]: Some sample review
+                  - generic [ref=e343]: "5"
+                - generic [ref=e344]:
+                  - generic [ref=e346]: This sample review is for the Apple MacBook Pro. I've been waiting for this product to be available. It is priced just right.
+                  - generic [ref=e347]:
+                    - generic [ref=e348]:
+                      - generic [ref=e349]: "From:"
+                      - generic [ref=e350]: John
+                    - generic [ref=e351]: "|"
+                    - generic [ref=e352]:
+                      - generic [ref=e353]: "Date:"
+                      - generic [ref=e354]: 2/11/2025 3:20 AM
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: Was this review helpful?
+                    - generic [ref=e357]:
+                      - generic [ref=e358] [cursor=pointer]: "Yes"
+                      - generic [ref=e359] [cursor=pointer]: "No"
+                    - generic [ref=e360]:
+                      - text: (
+                      - generic [ref=e361]: "0"
+                      - text: /
+                      - generic [ref=e362]: "0"
+                      - text: )
+            - generic [ref=e363]:
+              - strong [ref=e365]: Write your own review
+              - generic [ref=e366]:
+                - generic [ref=e368]:
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: "Review title:"
+                    - textbox "Review title:" [ref=e371]
+                    - generic [ref=e372]: "*"
+                  - generic [ref=e373]:
+                    - generic [ref=e374]: "Review text:"
+                    - textbox "Review text:" [ref=e375]
+                    - generic [ref=e376]: "*"
+                  - generic [ref=e377]:
+                    - generic [ref=e379]: "Rating:"
+                    - generic [ref=e380]:
+                      - generic [ref=e381]: Bad
+                      - generic [ref=e382]:
+                        - radio "Bad" [ref=e383]
+                        - radio "Not good" [ref=e384]
+                        - radio "Not bad but also not excellent" [ref=e385]
+                        - radio "Good" [ref=e386]
+                        - radio "Excellent" [ref=e387]
+                      - generic [ref=e388]: Excellent
+                - button "Submit review" [ref=e390] [cursor=pointer]
+    - generic [ref=e391]:
+      - generic [ref=e392]:
+        - generic [ref=e393]:
+          - strong [ref=e395]: Information
+          - list [ref=e396]:
+            - listitem [ref=e397]:
+              - link "Sitemap" [ref=e398] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e399]:
+              - link "Shipping & returns" [ref=e400] [cursor=pointer]:
+                - /url: /shipping-returns
+            - listitem [ref=e401]:
+              - link "Privacy notice" [ref=e402] [cursor=pointer]:
+                - /url: /privacy-notice
+            - listitem [ref=e403]:
+              - link "Conditions of Use" [ref=e404] [cursor=pointer]:
+                - /url: /conditions-of-use
+            - listitem [ref=e405]:
+              - link "About us" [ref=e406] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=e407]:
+              - link "Contact us" [ref=e408] [cursor=pointer]:
+                - /url: /contactus
+        - generic [ref=e409]:
+          - strong [ref=e411]: Customer service
+          - list [ref=e412]:
+            - listitem [ref=e413]:
+              - link "Search" [ref=e414] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=e415]:
+              - link "News" [ref=e416] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e417]:
+              - link "Blog" [ref=e418] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e419]:
+              - link "Recently viewed products" [ref=e420] [cursor=pointer]:
+                - /url: /recentlyviewedproducts
+            - listitem [ref=e421]:
+              - link "Compare products list" [ref=e422] [cursor=pointer]:
+                - /url: /compareproducts
+            - listitem [ref=e423]:
+              - link "New products" [ref=e424] [cursor=pointer]:
+                - /url: /newproducts
+        - generic [ref=e425]:
+          - strong [ref=e427]: My account
+          - list [ref=e428]:
+            - listitem [ref=e429]:
+              - link "My account" [ref=e430] [cursor=pointer]:
+                - /url: /customer/info
+            - listitem [ref=e431]:
+              - link "Orders" [ref=e432] [cursor=pointer]:
+                - /url: /order/history
+            - listitem [ref=e433]:
+              - link "Addresses" [ref=e434] [cursor=pointer]:
+                - /url: /customer/addresses
+            - listitem [ref=e435]:
+              - link "Shopping cart" [ref=e436] [cursor=pointer]:
+                - /url: /cart
+            - listitem [ref=e437]:
+              - link "Wishlist" [ref=e438] [cursor=pointer]:
+                - /url: /wishlist
+            - listitem [ref=e439]:
+              - link "Apply for vendor account" [ref=e440] [cursor=pointer]:
+                - /url: /vendor/apply
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - strong [ref=e444]: Follow us
+            - list [ref=e445]:
+              - listitem [ref=e446]:
+                - link "Facebook" [ref=e447] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nopCommerce
+              - listitem [ref=e448]:
+                - link "Twitter" [ref=e449] [cursor=pointer]:
+                  - /url: https://twitter.com/nopCommerce
+              - listitem [ref=e450]:
+                - link "RSS" [ref=e451] [cursor=pointer]:
+                  - /url: /news/rss/1
+              - listitem [ref=e452]:
+                - link "YouTube" [ref=e453] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/nopCommerce
+              - listitem [ref=e454]:
+                - link "Instagram" [ref=e455] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nopcommerce_official
+          - generic [ref=e456]:
+            - strong [ref=e458]: Newsletter
+            - generic [ref=e460]:
+              - textbox "Sign up for our newsletter" [ref=e461]
+              - button "Subscribe" [ref=e462] [cursor=pointer]
+      - generic [ref=e463]:
+        - generic [ref=e465]: Copyright © 2025 nopCommerce demo store. All rights reserved.
+        - generic [ref=e466]:
+          - text: Powered by
+          - link "nopCommerce" [ref=e467] [cursor=pointer]:
+            - /url: https://www.nopcommerce.com/
+```
