@@ -5,7 +5,7 @@ export default defineConfig({
   reporter: [["html"], ["allure-playwright"]],
   use: {
     baseURL: "https://demo.nopcommerce.com/",
-    headless: true,
+    headless: false,
     screenshot: "only-on-failure",
     video: "on",
     trace: "on-first-retry",

@@ -1,23 +1,38 @@
-import { Page } from "@playwright/test";
+import { Page, Locator, expect } from "@playwright/test";
 
 export class LoginPage {
   readonly page: Page;
+  readonly emailInput: Locator;
+  readonly passwordInput: Locator;
+  readonly rememberMeCheckbox: Locator;
+  readonly loginButton: Locator;
+  readonly logoutLink: Locator;
 
   constructor(page: Page) {
     this.page = page;
+    this.emailInput = page.getByRole("textbox", { name: "Email:" });
+    this.passwordInput = page.getByRole("textbox", { name: "Password:" });
+    this.rememberMeCheckbox = page.getByRole("checkbox", {
+      name: "Remember me?",
+    });
+    this.loginButton = page.getByRole("button", { name: "Log in" });
+    this.logoutLink = page.getByRole("link", { name: "Log out" });
   }
 
   async goto() {
-    await this.page.goto("/login");
+    await this.page.goto("https://demo.nopcommerce.com/login");
   }
 
-  async login(email: string, password: string) {
-    await this.page.fill("#Email", email);
-    await this.page.fill("#Password", password);
-    await this.page.click("button.login-button");
+  async login(email: string, password: string, rememberMe: boolean = true) {
+    await this.emailInput.fill(email);
+    await this.passwordInput.fill(password);
+    if (rememberMe) {
+      await this.rememberMeCheckbox.check();
+    }
+    await this.loginButton.click();
   }
 
-  async getErrorMessage() {
-    return this.page.textContent(".message-error");
+  async expectLoginSuccess() {
+    await expect(this.logoutLink).toBeVisible();
   }
 }
