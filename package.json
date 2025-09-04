@@ -1,21 +1,29 @@
 {
   "name": "nopcommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automation project for nopCommerce demo site using Playwright + TypeScript + Allure",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright test --reporter=list",
     "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
-    "allure:open": "allure open ./allure-report"
+    "allure:open": "allure open ./allure-report",
+    "clean": "rm -rf test-results allure-report"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sifatfaysald/nopcommerce.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright",
+    "automation",
+    "nopcommerce",
+    "allure"
+  ],
+  "author": "Sifat Faysal",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/sifatfaysald/nopcommerce/issues"
   },
