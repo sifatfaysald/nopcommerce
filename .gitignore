@@ -42,6 +42,7 @@ Thumbs.db
 
 # Playwright cache
 /playwright/.cache/
+/allure-results/
 
 # Session / storage files
 /auth.json
