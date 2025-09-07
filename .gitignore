@@ -46,3 +46,5 @@ Thumbs.db
 
 # Session / storage files
 /auth.json
+/storage/auth.json
+/storage/test-results.json
