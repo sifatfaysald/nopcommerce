@@ -7,10 +7,12 @@ export class RegistrationPage {
     this.page = page;
   }
 
+  // navigate to registration page
   async goto() {
     await this.page.goto("/register");
   }
 
+  // fill and submit registration form
   async register(
     firstName: string,
     lastName: string,
@@ -25,6 +27,7 @@ export class RegistrationPage {
     await this.page.click("#register-button");
   }
 
+  // get registration success message
   async getSuccessMessage() {
     return this.page.textContent(".result");
   }
