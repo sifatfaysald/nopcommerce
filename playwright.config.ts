@@ -9,6 +9,12 @@ export default defineConfig({
     screenshot: "only-on-failure",
     video: "on",
     trace: "on-first-retry",
+    storageState: "storage/auth.json",
+  },
+  // globalSetup: require.resolve("./utils/global-setup"),
+  timeout: 30 * 1000,
+  expect: {
+    timeout: 5000,
   },
 
   projects: [

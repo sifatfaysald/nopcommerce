@@ -1,0 +1,182 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e5]:
+        - combobox "Currency selector" [ref=e8]:
+          - option "US Dollar" [selected]
+          - option "Euro"
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Register" [ref=e13] [cursor=pointer]:
+              - /url: /register?returnUrl=%2Fcustomer%2Finfo
+          - listitem [ref=e14]:
+            - link "Log in" [ref=e15] [cursor=pointer]:
+              - /url: /login?returnUrl=%2Fcustomer%2Finfo
+          - listitem [ref=e16]:
+            - link "Wishlist (0)" [ref=e17] [cursor=pointer]:
+              - /url: /wishlist
+              - generic [ref=e18] [cursor=pointer]: Wishlist
+              - generic [ref=e19] [cursor=pointer]: (0)
+          - listitem [ref=e20]:
+            - link "Shopping cart (0)" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - generic [ref=e22] [cursor=pointer]: Shopping cart
+              - generic [ref=e23] [cursor=pointer]: (0)
+      - generic [ref=e24]:
+        - link "nopCommerce demo store" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img "nopCommerce demo store" [ref=e27] [cursor=pointer]
+        - generic [ref=e29]:
+          - textbox "Search store" [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link "Computers" [ref=e35] [cursor=pointer]:
+          - /url: /computers
+      - listitem [ref=e36]:
+        - link "Electronics" [ref=e37] [cursor=pointer]:
+          - /url: /electronics
+      - listitem [ref=e38]:
+        - link "Apparel" [ref=e39] [cursor=pointer]:
+          - /url: /apparel
+      - listitem [ref=e40]:
+        - link "Digital downloads" [ref=e41] [cursor=pointer]:
+          - /url: /digital-downloads
+      - listitem [ref=e42]:
+        - link "Books" [ref=e43] [cursor=pointer]:
+          - /url: /books
+      - listitem [ref=e44]:
+        - link "Jewelry" [ref=e45] [cursor=pointer]:
+          - /url: /jewelry
+      - listitem [ref=e46]:
+        - link "Gift Cards" [ref=e47] [cursor=pointer]:
+          - /url: /gift-cards
+    - main [ref=e48]:
+      - generic [ref=e51]:
+        - heading "Welcome, Please Sign In!" [level=1] [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - strong [ref=e58]: New Customer
+              - generic [ref=e59]: By creating an account on our website, you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+              - button "Register" [ref=e61] [cursor=pointer]
+            - generic [ref=e63]:
+              - strong [ref=e65]: Returning Customer
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - generic [ref=e68]: "Email:"
+                  - textbox "Email:" [active] [ref=e69]
+                - generic [ref=e70]:
+                  - generic [ref=e71]: "Password:"
+                  - textbox "Password:" [ref=e73]
+                - generic [ref=e75]:
+                  - checkbox "Remember me?" [ref=e76]
+                  - generic [ref=e77]: Remember me?
+                  - link "Forgot password?" [ref=e79] [cursor=pointer]:
+                    - /url: /passwordrecovery
+              - button "Log in" [ref=e81] [cursor=pointer]
+          - generic [ref=e82]:
+            - heading "About login / registration" [level=2] [ref=e84]
+            - paragraph [ref=e86]: Put your login / registration information here. You can edit this in the admin site.
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - strong [ref=e91]: Information
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Sitemap" [ref=e94] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e95]:
+              - link "Shipping & returns" [ref=e96] [cursor=pointer]:
+                - /url: /shipping-returns
+            - listitem [ref=e97]:
+              - link "Privacy notice" [ref=e98] [cursor=pointer]:
+                - /url: /privacy-notice
+            - listitem [ref=e99]:
+              - link "Conditions of Use" [ref=e100] [cursor=pointer]:
+                - /url: /conditions-of-use
+            - listitem [ref=e101]:
+              - link "About us" [ref=e102] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=e103]:
+              - link "Contact us" [ref=e104] [cursor=pointer]:
+                - /url: /contactus
+        - generic [ref=e105]:
+          - strong [ref=e107]: Customer service
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "Search" [ref=e110] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=e111]:
+              - link "News" [ref=e112] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e113]:
+              - link "Blog" [ref=e114] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e115]:
+              - link "Recently viewed products" [ref=e116] [cursor=pointer]:
+                - /url: /recentlyviewedproducts
+            - listitem [ref=e117]:
+              - link "Compare products list" [ref=e118] [cursor=pointer]:
+                - /url: /compareproducts
+            - listitem [ref=e119]:
+              - link "New products" [ref=e120] [cursor=pointer]:
+                - /url: /newproducts
+        - generic [ref=e121]:
+          - strong [ref=e123]: My account
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - link "My account" [ref=e126] [cursor=pointer]:
+                - /url: /customer/info
+            - listitem [ref=e127]:
+              - link "Orders" [ref=e128] [cursor=pointer]:
+                - /url: /order/history
+            - listitem [ref=e129]:
+              - link "Addresses" [ref=e130] [cursor=pointer]:
+                - /url: /customer/addresses
+            - listitem [ref=e131]:
+              - link "Shopping cart" [ref=e132] [cursor=pointer]:
+                - /url: /cart
+            - listitem [ref=e133]:
+              - link "Wishlist" [ref=e134] [cursor=pointer]:
+                - /url: /wishlist
+            - listitem [ref=e135]:
+              - link "Apply for vendor account" [ref=e136] [cursor=pointer]:
+                - /url: /vendor/apply
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - strong [ref=e140]: Follow us
+            - list [ref=e141]:
+              - listitem [ref=e142]:
+                - link "Facebook" [ref=e143] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nopCommerce
+              - listitem [ref=e144]:
+                - link "Twitter" [ref=e145] [cursor=pointer]:
+                  - /url: https://twitter.com/nopCommerce
+              - listitem [ref=e146]:
+                - link "RSS" [ref=e147] [cursor=pointer]:
+                  - /url: /news/rss/1
+              - listitem [ref=e148]:
+                - link "YouTube" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/nopCommerce
+              - listitem [ref=e150]:
+                - link "Instagram" [ref=e151] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nopcommerce_official
+          - generic [ref=e152]:
+            - strong [ref=e154]: Newsletter
+            - generic [ref=e156]:
+              - textbox "Sign up for our newsletter" [ref=e157]
+              - button "Subscribe" [ref=e158] [cursor=pointer]
+      - generic [ref=e159]:
+        - generic [ref=e161]: Copyright © 2025 nopCommerce demo store. All rights reserved.
+        - generic [ref=e162]:
+          - text: Powered by
+          - link "nopCommerce" [ref=e163] [cursor=pointer]:
+            - /url: https://www.nopcommerce.com/
+```

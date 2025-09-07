@@ -1,4 +1,5 @@
 import { Page, Locator, expect } from "@playwright/test";
+import path from "path";
 
 export class LoginPage {
   readonly page: Page;
@@ -32,7 +33,12 @@ export class LoginPage {
     await this.loginButton.click();
   }
 
-  async expectLoginSuccess() {
+  async verifyLoginSuccess() {
     await expect(this.logoutLink).toBeVisible();
+  }
+
+  async saveAuthState(filePath: string = "storage/auth.json") {
+    const fullPath = path.resolve(filePath);
+    await this.page.context().storageState({ path: fullPath });
   }
 }
