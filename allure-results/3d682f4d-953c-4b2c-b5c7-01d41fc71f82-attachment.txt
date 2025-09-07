@@ -1,5 +1,0 @@
-Total products found: 3
-1. Apple MacBook Pro
-2. Apple iCam
-3. Apple iPhone 16 128GB
-Search test success
