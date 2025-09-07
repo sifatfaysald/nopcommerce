@@ -44,10 +44,3 @@ Automation ensures consistent QA coverage, faster feedback, and reduced manual r
 | Currency Change | Change currency on homepage and cart, validate price updates. |
 | Newsletter Subscription | Valid email, invalid email, duplicate subscription handling. |
 
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/sifatfaysald/nopcommerce.git
-cd nopcommerce
