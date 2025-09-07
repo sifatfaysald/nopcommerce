@@ -1,0 +1,387 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e5]:
+        - combobox "Currency selector" [ref=e8]:
+          - option "US Dollar" [selected]
+          - option "Euro"
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "My account" [ref=e13] [cursor=pointer]:
+              - /url: /customer/info
+          - listitem [ref=e14]:
+            - link "Log out" [ref=e15] [cursor=pointer]:
+              - /url: /logout
+          - listitem [ref=e16]:
+            - link "Wishlist (0)" [ref=e17] [cursor=pointer]:
+              - /url: /wishlist
+              - generic [ref=e18] [cursor=pointer]: Wishlist
+              - generic [ref=e19] [cursor=pointer]: (0)
+          - listitem [ref=e20]:
+            - link "Shopping cart (1)" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - generic [ref=e22] [cursor=pointer]: Shopping cart
+              - generic [ref=e23] [cursor=pointer]: (1)
+      - generic [ref=e24]:
+        - link "nopCommerce demo store" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img "nopCommerce demo store" [ref=e27] [cursor=pointer]
+        - generic [ref=e29]:
+          - textbox "Search store" [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link "Computers" [ref=e35] [cursor=pointer]:
+          - /url: /computers
+      - listitem [ref=e36]:
+        - link "Electronics" [ref=e37] [cursor=pointer]:
+          - /url: /electronics
+      - listitem [ref=e38]:
+        - link "Apparel" [ref=e39] [cursor=pointer]:
+          - /url: /apparel
+      - listitem [ref=e40]:
+        - link "Digital downloads" [ref=e41] [cursor=pointer]:
+          - /url: /digital-downloads
+      - listitem [ref=e42]:
+        - link "Books" [ref=e43] [cursor=pointer]:
+          - /url: /books
+      - listitem [ref=e44]:
+        - link "Jewelry" [ref=e45] [cursor=pointer]:
+          - /url: /jewelry
+      - listitem [ref=e46]:
+        - link "Gift Cards" [ref=e47] [cursor=pointer]:
+          - /url: /gift-cards
+    - main [ref=e48]:
+      - generic [ref=e49]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Home" [ref=e54] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e55] [cursor=pointer]: Home
+            - generic [ref=e56]: /
+          - listitem [ref=e57]:
+            - link "Computers" [ref=e58] [cursor=pointer]:
+              - /url: /computers
+              - generic [ref=e59] [cursor=pointer]: Computers
+            - generic [ref=e60]: /
+          - listitem [ref=e61]:
+            - link "Desktops" [ref=e62] [cursor=pointer]:
+              - /url: /desktops
+              - generic [ref=e63] [cursor=pointer]: Desktops
+            - generic [ref=e64]: /
+          - listitem [ref=e65]:
+            - strong [ref=e66]: Build your own computer
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e74]:
+                - img "Picture of Build your own computer" [ref=e76]
+                - generic [ref=e77]:
+                  - img "Picture of Build your own computer" [ref=e79] [cursor=pointer]
+                  - img "Picture of Build your own computer" [ref=e81] [cursor=pointer]
+              - generic [ref=e82]:
+                - heading "Build your own computer" [level=1] [ref=e84]
+                - generic [ref=e85]: Build it
+                - generic [ref=e86]:
+                  - link "1 review(s)" [ref=e91] [cursor=pointer]:
+                    - /url: "#productreviews"
+                  - generic [ref=e92]:
+                    - text: "|"
+                    - link "Add your review" [ref=e93] [cursor=pointer]:
+                      - /url: "#addreview"
+                - generic [ref=e95]:
+                  - generic [ref=e96]: "SKU:"
+                  - generic [ref=e97]: COMP_CUST
+                - generic [ref=e99]: Free shipping
+                - generic [ref=e101]:
+                  - term [ref=e102]:
+                    - generic [ref=e103]: Processor
+                    - generic [ref=e104]: "*"
+                  - definition [ref=e105]:
+                    - combobox [ref=e106]:
+                      - option "Please select"
+                      - option "2.2 GHz Intel Pentium Dual-Core E2200" [selected]
+                      - option "2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]"
+                  - term [ref=e107]:
+                    - generic [ref=e108]: RAM
+                    - generic [ref=e109]: "*"
+                  - definition [ref=e110]:
+                    - combobox [ref=e111]:
+                      - option "Please select"
+                      - option "2 GB" [selected]
+                      - option "4GB [+$20.00]"
+                      - option "8GB [+$60.00]"
+                  - term [ref=e112]:
+                    - generic [ref=e113]: HDD
+                    - generic [ref=e114]: "*"
+                  - definition [ref=e115]:
+                    - list [ref=e116]:
+                      - listitem [ref=e117]:
+                        - radio "320 GB" [ref=e118]
+                        - generic [ref=e119]: 320 GB
+                      - listitem [ref=e120]:
+                        - radio "400 GB [+$100.00]" [checked] [ref=e121]
+                        - generic [ref=e122]: 400 GB [+$100.00]
+                  - term [ref=e123]:
+                    - generic [ref=e124]: OS
+                    - generic [ref=e125]: "*"
+                  - definition [ref=e126]:
+                    - list [ref=e127]:
+                      - listitem [ref=e128]:
+                        - radio "Vista Home [+$50.00]" [ref=e129]
+                        - generic [ref=e130]: Vista Home [+$50.00]
+                      - listitem [ref=e131]:
+                        - radio "Vista Premium [+$60.00]" [checked] [active] [ref=e132]
+                        - generic [ref=e133]: Vista Premium [+$60.00]
+                  - term [ref=e134]:
+                    - generic [ref=e135]: Software
+                  - definition [ref=e136]:
+                    - list [ref=e137]:
+                      - listitem [ref=e138]:
+                        - checkbox "Microsoft Office [+$50.00]" [checked] [ref=e139]
+                        - generic [ref=e140]: Microsoft Office [+$50.00]
+                      - listitem [ref=e141]:
+                        - checkbox "Acrobat Reader [+$10.00]" [ref=e142]
+                        - generic [ref=e143]: Acrobat Reader [+$10.00]
+                      - listitem [ref=e144]:
+                        - checkbox "Total Commander [+$5.00]" [ref=e145]
+                        - generic [ref=e146]: Total Commander [+$5.00]
+                - generic [ref=e149]: $1,200.00
+                - generic [ref=e151]:
+                  - textbox "Enter a quantity" [ref=e152]: "1"
+                  - button "Add to cart" [ref=e153] [cursor=pointer]
+                - generic [ref=e154]:
+                  - button "Add to wishlist" [ref=e156] [cursor=pointer]
+                  - button "Add to compare list" [ref=e158] [cursor=pointer]
+                  - button "Email a friend" [ref=e160] [cursor=pointer]
+                - generic [ref=e162]:
+                  - img "facebook sharing button" [ref=e164] [cursor=pointer]
+                  - img "whatsapp sharing button" [ref=e166] [cursor=pointer]
+                  - img "messenger sharing button" [ref=e168] [cursor=pointer]
+                  - img "meneame sharing button" [ref=e170] [cursor=pointer]
+              - paragraph [ref=e172]: Fight back against cluttered workspaces with the stylish IBM zBC12 All-in-One desktop PC, featuring powerful computing resources and a stunning 20.1-inch widescreen display with stunning XBRITE-HiColor LCD technology. The black IBM zBC12 has a built-in microphone and MOTION EYE camera with face-tracking technology that allows for easy communication with friends and family. And it has a built-in DVD burner and Sony's Movie Store software so you can create a digital entertainment library for personal viewing at your convenience. Easy to setup and even easier to use, this JS-series All-in-One includes an elegantly designed keyboard and a USB mouse.
+            - generic [ref=e174]:
+              - strong [ref=e176]: Product tags
+              - list [ref=e178]:
+                - listitem [ref=e179]:
+                  - link "awesome" [ref=e180] [cursor=pointer]:
+                    - /url: /awesome
+                  - generic [ref=e181]: (18)
+                - listitem [ref=e182]: ","
+                - listitem [ref=e183]:
+                  - link "computer" [ref=e184] [cursor=pointer]:
+                    - /url: /computer
+                  - generic [ref=e185]: (14)
+            - generic [ref=e186]:
+              - strong [ref=e188]: Customers who bought this item also bought
+              - generic [ref=e189]:
+                - generic [ref=e191]:
+                  - link "Picture of Apple MacBook Pro" [ref=e193] [cursor=pointer]:
+                    - /url: /apple-macbook-pro
+                    - img "Picture of Apple MacBook Pro" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]:
+                    - heading "Apple MacBook Pro" [level=2] [ref=e196]:
+                      - link "Apple MacBook Pro" [ref=e197] [cursor=pointer]:
+                        - /url: /apple-macbook-pro
+                    - generic [ref=e201]:
+                      - generic [ref=e203]: $1,800.00
+                      - generic [ref=e204]:
+                        - button "Add to cart" [ref=e205] [cursor=pointer]
+                        - button "Add to compare list" [ref=e206] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e207] [cursor=pointer]
+                - generic [ref=e209]:
+                  - link "Picture of Lenovo IdeaCentre" [ref=e211] [cursor=pointer]:
+                    - /url: /lenovo-ideacentre
+                    - img "Picture of Lenovo IdeaCentre" [ref=e212] [cursor=pointer]
+                  - generic [ref=e213]:
+                    - heading "Lenovo IdeaCentre" [level=2] [ref=e214]:
+                      - link "Lenovo IdeaCentre" [ref=e215] [cursor=pointer]:
+                        - /url: /lenovo-ideacentre
+                    - generic [ref=e219]:
+                      - generic [ref=e221]: $500.00
+                      - generic [ref=e222]:
+                        - button "Add to cart" [ref=e223] [cursor=pointer]
+                        - button "Add to compare list" [ref=e224] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e225] [cursor=pointer]
+                - generic [ref=e227]:
+                  - link "Picture of If You Wait (donation)" [ref=e229] [cursor=pointer]:
+                    - /url: /if-you-wait-donation
+                    - img "Picture of If You Wait (donation)" [ref=e230] [cursor=pointer]
+                  - generic [ref=e231]:
+                    - heading "If You Wait (donation)" [level=2] [ref=e232]:
+                      - link "If You Wait (donation)" [ref=e233] [cursor=pointer]:
+                        - /url: /if-you-wait-donation
+                    - generic [ref=e239]:
+                      - button "Add to cart" [ref=e240] [cursor=pointer]
+                      - button "Add to compare list" [ref=e241] [cursor=pointer]
+                      - button "Add to wishlist" [ref=e242] [cursor=pointer]
+                - generic [ref=e244]:
+                  - link "Picture of Pride and Prejudice" [ref=e246] [cursor=pointer]:
+                    - /url: /pride-and-prejudice
+                    - img "Picture of Pride and Prejudice" [ref=e247] [cursor=pointer]
+                  - generic [ref=e248]:
+                    - heading "Pride and Prejudice" [level=2] [ref=e249]:
+                      - link "Pride and Prejudice" [ref=e250] [cursor=pointer]:
+                        - /url: /pride-and-prejudice
+                    - generic [ref=e254]:
+                      - generic [ref=e255]:
+                        - generic [ref=e256]: $35.00
+                        - generic [ref=e257]: $24.00
+                      - generic [ref=e258]:
+                        - button "Add to cart" [ref=e259] [cursor=pointer]
+                        - button "Add to compare list" [ref=e260] [cursor=pointer]
+                        - button "Add to wishlist" [ref=e261] [cursor=pointer]
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - strong [ref=e265]: Existing reviews
+              - generic [ref=e266]:
+                - generic [ref=e267]:
+                  - strong [ref=e269]: Some sample review
+                  - generic [ref=e272]: "5"
+                - generic [ref=e273]:
+                  - generic [ref=e275]: This sample review is for the Build your own computer. I've been waiting for this product to be available. It is priced just right.
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: "From:"
+                      - generic [ref=e279]: John
+                    - generic [ref=e280]: "|"
+                    - generic [ref=e281]:
+                      - generic [ref=e282]: "Date:"
+                      - generic [ref=e283]: 2/11/2025 3:20 AM
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: Was this review helpful?
+                    - generic [ref=e286]:
+                      - generic [ref=e287] [cursor=pointer]: "Yes"
+                      - generic [ref=e288] [cursor=pointer]: "No"
+                    - generic [ref=e289]:
+                      - text: (
+                      - generic [ref=e290]: "0"
+                      - text: /
+                      - generic [ref=e291]: "0"
+                      - text: )
+            - generic [ref=e292]:
+              - strong [ref=e294]: Write your own review
+              - generic [ref=e295]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]:
+                    - generic [ref=e299]: "Review title:"
+                    - textbox "Review title:" [ref=e300]
+                    - generic [ref=e301]: "*"
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: "Review text:"
+                    - textbox "Review text:" [ref=e304]
+                    - generic [ref=e305]: "*"
+                  - generic [ref=e306]:
+                    - generic [ref=e308]: "Rating:"
+                    - generic [ref=e309]:
+                      - generic [ref=e310]: Bad
+                      - generic [ref=e311]:
+                        - radio "Bad" [ref=e312]
+                        - radio "Not good" [ref=e313]
+                        - radio "Not bad but also not excellent" [ref=e314]
+                        - radio "Good" [ref=e315]
+                        - radio "Excellent" [ref=e316]
+                      - generic [ref=e317]: Excellent
+                - button "Submit review" [ref=e319] [cursor=pointer]
+    - generic [ref=e320]:
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - strong [ref=e324]: Information
+          - list [ref=e325]:
+            - listitem [ref=e326]:
+              - link "Sitemap" [ref=e327] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e328]:
+              - link "Shipping & returns" [ref=e329] [cursor=pointer]:
+                - /url: /shipping-returns
+            - listitem [ref=e330]:
+              - link "Privacy notice" [ref=e331] [cursor=pointer]:
+                - /url: /privacy-notice
+            - listitem [ref=e332]:
+              - link "Conditions of Use" [ref=e333] [cursor=pointer]:
+                - /url: /conditions-of-use
+            - listitem [ref=e334]:
+              - link "About us" [ref=e335] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=e336]:
+              - link "Contact us" [ref=e337] [cursor=pointer]:
+                - /url: /contactus
+        - generic [ref=e338]:
+          - strong [ref=e340]: Customer service
+          - list [ref=e341]:
+            - listitem [ref=e342]:
+              - link "Search" [ref=e343] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=e344]:
+              - link "News" [ref=e345] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e346]:
+              - link "Blog" [ref=e347] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e348]:
+              - link "Recently viewed products" [ref=e349] [cursor=pointer]:
+                - /url: /recentlyviewedproducts
+            - listitem [ref=e350]:
+              - link "Compare products list" [ref=e351] [cursor=pointer]:
+                - /url: /compareproducts
+            - listitem [ref=e352]:
+              - link "New products" [ref=e353] [cursor=pointer]:
+                - /url: /newproducts
+        - generic [ref=e354]:
+          - strong [ref=e356]: My account
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "My account" [ref=e359] [cursor=pointer]:
+                - /url: /customer/info
+            - listitem [ref=e360]:
+              - link "Orders" [ref=e361] [cursor=pointer]:
+                - /url: /order/history
+            - listitem [ref=e362]:
+              - link "Addresses" [ref=e363] [cursor=pointer]:
+                - /url: /customer/addresses
+            - listitem [ref=e364]:
+              - link "Shopping cart" [ref=e365] [cursor=pointer]:
+                - /url: /cart
+            - listitem [ref=e366]:
+              - link "Wishlist" [ref=e367] [cursor=pointer]:
+                - /url: /wishlist
+            - listitem [ref=e368]:
+              - link "Apply for vendor account" [ref=e369] [cursor=pointer]:
+                - /url: /vendor/apply
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - strong [ref=e373]: Follow us
+            - list [ref=e374]:
+              - listitem [ref=e375]:
+                - link "Facebook" [ref=e376] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nopCommerce
+              - listitem [ref=e377]:
+                - link "Twitter" [ref=e378] [cursor=pointer]:
+                  - /url: https://twitter.com/nopCommerce
+              - listitem [ref=e379]:
+                - link "RSS" [ref=e380] [cursor=pointer]:
+                  - /url: /news/rss/1
+              - listitem [ref=e381]:
+                - link "YouTube" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/nopCommerce
+              - listitem [ref=e383]:
+                - link "Instagram" [ref=e384] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nopcommerce_official
+          - generic [ref=e385]:
+            - strong [ref=e387]: Newsletter
+            - generic [ref=e389]:
+              - textbox "Sign up for our newsletter" [ref=e390]
+              - button "Subscribe" [ref=e391] [cursor=pointer]
+      - generic [ref=e392]:
+        - generic [ref=e394]: Copyright © 2025 nopCommerce demo store. All rights reserved.
+        - generic [ref=e395]:
+          - text: Powered by
+          - link "nopCommerce" [ref=e396] [cursor=pointer]:
+            - /url: https://www.nopcommerce.com/
+```

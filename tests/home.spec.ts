@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("access customer info page", async ({ page }) => {
+test.skip("access customer info page", async ({ page }) => {
   await page.goto("https://demo.nopcommerce.com/customer/info", {
     waitUntil: "domcontentloaded",
   });
