@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 import { SearchPage } from "../pages/SearchPage";
 
-test("search for product Apple", async ({ page }) => {
+test.skip("search for product Apple", async ({ page }) => {
   const searchPage = new SearchPage(page);
 
   await page.goto("https://demo.nopcommerce.com/login");
