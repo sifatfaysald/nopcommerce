@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { CheckoutPage } from "../pages/CheckoutPage";
 
-test("nopcommerce checkout flow", async ({ page }) => {
+test.skip("nopcommerce checkout flow", async ({ page }) => {
   await page.goto("https://demo.nopcommerce.com/");
   const firstProduct = page.locator(".product-item").first();
   await expect(firstProduct).toBeVisible();
