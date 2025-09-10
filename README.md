@@ -44,3 +44,34 @@ Automation ensures consistent QA coverage, faster feedback, and reduced manual r
 | Currency Change | Change currency on homepage and cart, validate price updates. |
 | Newsletter Subscription | Valid email, invalid email, duplicate subscription handling. |
 
+
+# Install & Setup
+
+### 1. Install npm
+
+```bash
+npm install
+```
+### Install Playwright
+
+```
+npm init playwright@latest
+npx playwright install
+npm install @playwright/test
+npm install -D @playwright/test@latest
+```
+
+### Running Test
+
+### Run All test
+
+```bash
+npx playwright test
+```
+
+### Run HTML report
+
+```bash
+npx playwright show-report
+```
+
